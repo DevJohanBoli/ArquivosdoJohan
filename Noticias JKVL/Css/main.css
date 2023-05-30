@@ -1,0 +1,38 @@
+.coluna {
+    margin-left: 50px;
+    max-width: 900px;
+}
+
+.coluna2 {}
+
+.substitulo {
+    margin: 0;
+}
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 0;
+}
+
+.substitulo2 {
+    margin: 0;
+}
+
+.gg {
+    margin: 4px 0;
+    font-weight: bold;
+}
+
+.imagem {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.sub-img {
+    margin: 8px 0;
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 300px;
+    padding: px 0 0 0;
+}
