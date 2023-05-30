@@ -1,0 +1,31 @@
+main {
+    margin: 200px 0;
+    justify-content: 100%;
+    text-align: center;
+}
+
+main h1,
+p {
+    margin-bottom: 50px;
+}
+
+.texto {
+    margin: 0 400px;
+    margin-bottom: 80px;
+}
+
+.helo {
+    display: flex;
+    justify-content: center;
+}
+
+figure img {
+    width: 100px;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin: 0 60px;
+}
+
+figure:hover {
+    border: 2px solid black;
+}
