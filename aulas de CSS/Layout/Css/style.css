@@ -1,0 +1,35 @@
+.header {
+    border: 2px solid black;
+    height: 100px;
+}
+
+.nav {
+    border: 2px solid black;
+    height: 20px;
+}
+
+.main {
+    border: 2px solid red;
+    height: 600px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.article {
+    border: 1px solid black;
+    height: 535px;
+    width: 950px;
+    margin: 55px 25px 75px;
+}
+
+.aside {
+    border: 1px solid black;
+    height: 125px;
+    width: 800px;
+    margin: 380px 75px;
+}
+
+.footer {
+    border: 2px solid black;
+    height: 100px;
+}

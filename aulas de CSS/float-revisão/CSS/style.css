@@ -1,0 +1,30 @@
+nav {
+    width: 100%;
+    float: left;
+}
+
+.div1 {
+    background-color: bisque;
+    float: left;
+    width: 33%;
+}
+
+.div2 {
+    background-color: blueviolet;
+    float: left;
+    width: 33%;
+}
+
+.div3 {
+    background-color: chartreuse;
+    float: left;
+    width: 33%;
+}
+
+.box {
+    background-color: aqua;
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    float: right;
+}

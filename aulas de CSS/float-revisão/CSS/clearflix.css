@@ -1,0 +1,24 @@
+div {
+    background-color: greenyellow;
+    border: 3px solid greenyellow;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+section {
+    border: 3px solid greenyellow;
+    padding: 5px;
+}
+
+.img1 {
+    float: right;
+}
+
+.img2 {
+    float: right
+}
+
+.box {
+    overflow: auto;
+}

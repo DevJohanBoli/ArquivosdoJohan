@@ -1,0 +1,16 @@
+.alinhamento {
+    background-color: dodgerblue;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alinhamento>div {
+    background-color: aliceblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+}
