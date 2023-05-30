@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <!--fieldset cria segunda base-->
+            <legend>Identificação</legend>
+            <!--Põe um tìtulos no meio da base secundarias-->
+            <label for="cNome">Nome</label>
+            <!--cria base de texto-->
+            <input type="text" id="cNome" required>
+            <!--(input) significa configurações dentro da "Label"/ (id) é selector do texto / (Required) significa resposta obrigatorios-->
+            <br>
+            <p>Onde voce mora?</p>
+
+            <label for="">Cidade</label> <br>
+            <input type="radio">
+            <!--(Radio) Signifaca um circulo marcação-->
+            <label for="">Interior</label> <br>
+            <input type="radio">
+            <label for="">Capital</label> <br>
+            <input type="radio">
+            <label for="">Outros</label> <br>
+        </fieldset>
+
+        <p>Qual é o seu meio de transporte?</p>
+
+        <input type="checkbox">
+        <!--(checkbox) uma caxinha de marcação-->
+        <label for="">Bike</label><br>
+        <input type="checkbox">
+        <label for="">Carro</label><br>
+        <input type="checkbox">
+        <label for="">Onibus</label><br>
+        <input type="checkbox">
+        <label for="">Bike</label>
+        <input type="checkbox">
+        <label for="">Carro</label>
+        <input type="checkbox">
+        <label for="">Onibus</label>
+
+        <p>Selecione o seu Time:</p>
+        <select name="" id=""><!--São de seleção de escolha de uma lista-->
+            <option value="Palmeira">Palmeira</option>
+            <option value="Corinthias">Corinthias</option>
+            <option value="Santos">Santos</option>
+            <option value="Vasco">Vasco</option>
+            <option value="Sem Time">Sem Time</option>
+        </select>
+
+        <p>Escolha a sua Cidade:</p>
+        <label for="">Cidade</label>
+        <input autocomplete="on" list="cidade" placeholder="Sua Cidade">
+        <datalist id="cidade">
+            <option value="São Paulo">São Paulo</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Mina Gerais">Mina Gerais</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+        </datalist>
+        <br><br> 0 <input type="range"> 100 <br><br>
+        <p>Sugestões, Elogios e Criticas:</p>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Encaminhar">
+    </form>
+</body>
+
+</html>

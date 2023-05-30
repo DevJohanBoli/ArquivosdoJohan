@@ -1,0 +1,20 @@
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #1719b4;
+    color: white;
+}
+
+table {
+    background-image: url(arte-digital-x-bart-simpsons-desenho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+td {
+    color: white, solid black 2px
+}

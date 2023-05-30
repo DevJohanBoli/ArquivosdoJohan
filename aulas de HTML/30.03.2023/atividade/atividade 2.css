@@ -1,0 +1,22 @@
+table,
+th,
+td {
+    text-align: center;
+    width: 600px;
+    border-collapse: collapse;
+    border: solid;
+}
+
+.linha1 {
+    background-color: rgb(27, 209, 27);
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: white
+}
+
+.linha1 {
+    background-color: rgb(27, 209, 27);
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: white
+}

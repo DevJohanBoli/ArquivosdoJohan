@@ -1,0 +1,19 @@
+table {
+    border: 1px solid black;
+    /*borda: grossura(px), solido(solid) e cor(color) preto da linha*/
+    width: 500px;
+    /*largura/cumprimento*/
+    height: 250px;
+    /*altura*/
+    /*border-collapse: collapse
+    /*fara com que as bordas colapsem em uma unica borda*/
+    border: none
+}
+
+td {
+    border: 1px solid black;
+    background-color: #96d4d4;
+    border-radius: 10px;
+    /*(radius) raios que significa o CIRCULAR*/
+    border-style: solid
+}

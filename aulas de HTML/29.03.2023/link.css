@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline
+}
+
+.especial:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none
+}
+
+.especial::before {
+    font-weight: lighter
+}
