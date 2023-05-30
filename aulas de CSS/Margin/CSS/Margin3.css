@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+.nav {
+    margin: 25px 50px 75px 100px;
+    border: 2px solid;
+    background-color: brown;
+}
+
+.section {
+    margin: 25px 50px 75px;
+    border: 2px solid;
+    background-color: aquamarine;
+}
+
+.article {
+    margin: 25px 50px;
+    border: 2px solid;
+    background-color: cadetblue;
+}
+
+.footer {
+    border: 1px solid red;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,15 @@
+aside {
+    background-color: #fffbe4;
+    border: 1px solid #c9bc8f;
+    padding: 10px;
+    float: right;
+    padding: 10px;
+    width: 260px;
+}
+
+aside h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+aside

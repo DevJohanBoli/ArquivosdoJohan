@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+}
+.container1{}
+.red{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    flex-direction: ;
+}
+.verde{ 
+    background-color: chartreuse;
+    width: 600px;
+    height: 190px;    
+    margin-left: 10px;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rosa{
+    background-color: fuchsia;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coluna{
+    display: flex;
+}
+.azul1{
+    background-color: cornflowerblue;
+    width: 340px;
+    height: 145px;
+    margin: 10px 0 10px;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

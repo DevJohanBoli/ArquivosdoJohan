@@ -1,0 +1,48 @@
+body {
+    background-color: darkgray;
+}
+
+main {
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+}
+
+.menu1 {
+    background-color: red;
+    width: 500px;
+    height: 390px;
+    margin: 0;
+    display: flex;
+}
+
+.menu2 {
+    background-color: greenyellow;
+    width: 850px;
+    height: 150px;
+    display: flex;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.caixa3 {
+    background-color: palevioletred;
+    width: 400px;
+    height: 230px;
+    flex-direction: column-reverse;
+    margin-top: 160px;
+    margin-left: 0;
+}
+
+.caixa5,
+.caixa4 {
+    background-color: blue;
+    width: 435px;
+    height: 105px;
+    margin: 20px;
+}
+
+.coluna {
+    flex-direction: column;
+    margin-top: 140px;
+}
