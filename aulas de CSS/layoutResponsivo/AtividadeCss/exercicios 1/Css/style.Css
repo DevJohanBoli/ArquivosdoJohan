@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: coral;
+}
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.menu1, .menu2,.menu3,.menu4{
+    display: flex;
+}
+.menu2{
+    justify-content: flex-end;
+}
+.menu3{
+    justify-content: space-around;
+}
+.menu4{
+    justify-content: space-between
+}
+
+.caixa1{
+    padding: 50px 300px;
+    background-color: yellowgreen;
+    margin-bottom: 10px;
+}
+.caixa2{
+    padding: 50px 300px;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+}
+.caixa3{
+    padding: 50px 300px;
+    background-color: red;
+    margin-bottom: 10px;
+}

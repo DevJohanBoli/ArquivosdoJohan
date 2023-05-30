@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    background-color: burlywood;
+}
+
+nav {
+    margin: 10px;
+    padding: 5px;
+}
+
+nav>.titulo {
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 3px solid;
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+}
+
+.menu>.esquerda {
+    background-color: darkturquoise;
+    padding: 10px;
+    border: 2px solid black;
+    flex: 50%;
+}
+
+.menu>.direita {
+    background-color: darkturquoise;
+    padding: 10px;
+    border: 2px solid black;
+    flex: 50%;
+}
+
+@media(max-width: 800px) {
+    .menu {
+        flex-direction: column;
+    }
+}
