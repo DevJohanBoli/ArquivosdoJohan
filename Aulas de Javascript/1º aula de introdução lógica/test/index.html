@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Olá mundo!";
+        }
+    </script>
+</head>
+    <body>
+        <header>
+            <h1>Bem-vindo ao meu site</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    
+        <main>
+            <h2>Minha Página Web</h2>
+            <p>Clique no botão para mudar o texto:</p>
+            <button onclick="myFunction()">Clique aqui</button>
+            <p id="demo"></p>
+        </main>
+    
+        <footer>
+            <p>Todos os direitos reservados - Meu site</p>
+        </footer>
+    </body>
+</html>

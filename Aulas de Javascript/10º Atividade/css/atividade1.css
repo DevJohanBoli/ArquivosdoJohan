@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.caixa1{
+    background: rgb(255,55,0);
+    background: radial-gradient(circle, rgba(255,55,0,1) 48%, rgba(249,148,76,1) 100%);
+}
